@@ -1,0 +1,309 @@
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   THIS FILE FOR RESPONSIVE   |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media only screen and (max-width: 1280px) {
+  .w-45 {
+    width: 48%;
+  }
+
+  .header-area .menu-area nav > ul > li > a {
+    padding: 16px 36px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .w-45 {
+    width: 48%;
+  }
+  .contend-area .customers .first-customer {
+    height: 200px;
+  }
+
+  .contend-area .customers .second-customer {
+    height: 200px;
+  }
+
+  .w-60 {
+    width: 76%;
+  }
+}
+/* THIS CSS FOR TABLET */
+@media only screen and (max-width: 834px) {
+  .header-area .menu-area nav > ul > li > a {
+    padding: 16px 24px;
+  }
+
+  .header-area .button {
+    left: 31%;
+  }
+
+  .contend-area .customers .color-title h6 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 22px 13px 0;
+  }
+
+  .contend-area .customers .color-title h7 {
+    font-size: 12px;
+    /* letter-spacing: 1px; */
+    padding: 22px 14px 0;
+  }
+
+  .contend-area .customers .color-title p {
+    padding: 9px 20px 4px 16px;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header-area .menu-area nav > ul > li > a {
+    padding: 16px 22px;
+  }
+
+  .contend-area .customers .color-title h6 {
+    font-size: 12px;
+  }
+
+  .header-area .header-content p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-area .header-content p {
+    font-size: 15px;
+  }
+
+  .header-area .button a {
+    padding: 18px 60px;
+    letter-spacing: 1px;
+  }
+
+  .header-area .button {
+    left: 33%;
+  }
+
+  .contend-area .customers .first-customer {
+    height: 200px;
+  }
+
+  .contend-area .customers .second-customer {
+    height: 200px;
+  }
+
+  .contend-area .customers .spes {
+    padding-right: 10px;
+  }
+
+  .contend-area .customers .color-title h6 {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 16px 0;
+  }
+
+  .contend-area .customers .color-title h7 {
+    padding: 10px 16px 0;
+    font-size: 11px;
+  }
+
+  .contend-area .customers .color-title p {
+    padding: 9px 20px 4px 16px;
+    font-size: 11px;
+  }
+
+  .w-60 {
+    width: 88%;
+  }
+
+  /* .header-area .menu-area nav > ul > li > a {
+    padding: 16px 39px;
+  } */
+}
+@media only screen and (max-width: 740px) {
+  /* .header-area .menu-area nav > ul > li > a {
+    padding: 16px 36px;
+  } */
+
+  .header-area .header-content p {
+    font-size: 14px;
+  }
+
+  .contend-area .customers .color-title h6 {
+    font-size: 10px;
+  }
+  .contend-area .customers .color-title h7 {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  /* .header-area .menu-area nav > ul > li > a {
+    padding: 16px 26px;
+  } */
+
+  .w-45 {
+    width: 47%;
+  }
+}
+/* THIS CSS FOR MOBILE DISPLAY */
+@media only screen and (max-width: 550px) {
+  .header-area {
+    padding: 0;
+  }
+
+  .header-area .menu-area nav > ul > li {
+    margin-left: 0;
+  }
+
+  .header-area .menu-area nav > ul > li > a {
+    padding: 16px 11px;
+  }
+
+  .header-area .header-content h1 {
+    font-size: 40px;
+  }
+
+  .header-area .header-content p {
+    font-size: 14px;
+  }
+
+  .header-area .play-icon {
+    left: 38%;
+  }
+
+  .header-area .button {
+    left: 20%;
+    bottom: 65px;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  /* html {
+    font-size: 57.5%;
+  } */
+
+  .mobile-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .w-45 {
+    width: 100%;
+    float: none;
+  }
+
+  .w-30 {
+    width: 100%;
+    float: none;
+  }
+
+  .contend-area .customers {
+    padding: 65px 0 65px 15px;
+  }
+
+  .contend-area .customers .first-customer {
+    height: 300px;
+  }
+
+  .contend-area .customers .second-customer {
+    height: 300px;
+  }
+
+  .contend-area .customers .color-title h6 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 20px 30px 0;
+    font-weight: 600;
+  }
+  .contend-area .customers .color-title h7 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 20px 30px 0;
+    font-weight: 600;
+  }
+
+  .contend-area .customers .color-title p {
+    padding: 17px 5px 4px 30px;
+    font-size: 13px;
+  }
+
+  .contact-section .container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .w-80 {
+    width: 100%;
+    float: none;
+  }
+
+  .w-20 {
+    width: 100%;
+    float: none;
+  }
+
+  .w-60 {
+    width: 100%;
+    float: none;
+  }
+
+  .w-40 {
+    width: 100%;
+    float: none;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .header-area .menu-area nav > ul > li > a {
+    padding: 16px 8px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .header-area .menu-area nav > ul > li > a {
+    font-size: 14px;
+    padding: 16px 10px;
+  }
+
+  .header-area .button {
+    left: 16%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .header-area .menu-area nav > ul > li > a {
+    padding: 16px 8px;
+  }
+
+  .header-area .play-icon {
+    left: 34%;
+  }
+
+  .header-area .button {
+    left: 13%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header-area .menu-area nav > ul > li > a {
+    font-size: 13px;
+    padding: 16px 5px;
+  }
+
+  .header-area .play-icon {
+    left: 32%;
+  }
+
+  .header-area .button {
+    left: 16%;
+  }
+
+  .header-area .button a {
+    padding: 10px 29px;
+  }
+}

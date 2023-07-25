@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en"  data-scroll="0">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Starnight App</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script defer src="js/main.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header id="logo" class="section header-area">
+      <div class="container">
+        <div class="menu-area">
+          <nav>
+            <ul id="menu">
+              <li>
+                <a
+                  target="_self"
+                  class="navbar-button active logo"
+                  onclick="scrollInView(this, 'header-area')"
+                  >
+                  <img src="./images/home.svg" alt="" width="12px" style="margin-right: 10px;">Logo</a
+                >
+              </li>
+
+              <li>
+                <a
+                  target="_self"
+                  class="navbar-button team"
+                  onclick="scrollInView(this, 'employee-section')"
+                  >Team</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_self"
+                  class="navbar-button work"
+                  onclick="scrollInView(this, 'customers')"
+                  >Work</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_self"
+                  class="navbar-button price"
+                  onclick="scrollInView(this, 'price-section')"
+                  >Price</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_self"
+                  class="navbar-button contact"
+                  onclick="scrollInView(this, 'contact-section')"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a  target="_self" class="navbar-button"><span>Dropdown </span><img src="./images/down.svg" alt="" width="22px"></a>
+                <ul>
+                  <li><a target="_self" >Item 1</a></li>
+                  <li><a target="_self">Item 2</a></li>
+                  <li><a target="_self">Item 3</a></li>
+                  <li><a target="_self">Item 4</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="mobile-view">
+              
+              <a onclick="closeNav()" href="" id="choosen-item" class="navbar-button">Logo</a>
+              <span onclick="openNav()">&#9776</span>
+              <div id="myNav" class="overlay">
+                  <a href="javascript:void()" onclick="closeNav()" class="close-btn">&times;</a>
+                  <div class="overlay-content">
+                      <a onclick="mobileScrollInView(this, 'header-area')" class="navbar-button active logo" >Logo</a>
+                      <a onclick="mobileScrollInView(this, 'employee-section')" class="navbar-button team">Team</a>
+                      <a onclick="mobileScrollInView(this, 'customers')" class="navbar-button work">Work</a>
+                      <a onclick="mobileScrollInView(this, 'price-section')" class="navbar-button price">Price</a>
+                      <a onclick="mobileScrollInView(this, 'contact-section')" class="navbar-button contact">Contact</a>
+                  </div>
+              </div>
+          </div>
+          </nav>
+        </div>
+        <div class="button">
+          <a >Get Started</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="contend-area">
+      <div id="team" class="section employee-section">
+        <div class="container">
+          <div class="employee-title">
+            <h1>Our Team</h1>
+            <p>Meet the team - our office rats:</p>
+          </div>
+          <div class="employees">
+            <div class="member">
+              <img src="images/profile.JPG" alt="" />
+              <h2>Fahad Ali</h2>
+              <h3>Full Stack</h3>
+            </div>
+            <div class="member">
+              <img src="images/profile.JPG" alt="" />
+              <h2>Fahad Ali</h2>
+              <h3>Full Stack</h3>
+            </div>
+            <div class="member">
+              <img src="images/profile.JPG" alt="" />
+              <h2>Fahad Ali</h2>
+              <h3>Full Stack</h3>
+            </div>
+            <div class="member">
+              <img src="images/profile.JPG" alt="" />
+              <h2>Fahad Ali</h2>
+              <h3>Full Stack</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="work" class="section customers">
+        <div class="main-content">
+          <div class="w-30">
+            <div class="some-text">
+              <h1>Our Work</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+                sit impedit atque necessitatibus animi perferendis voluptate qui
+                deleniti mollitia consequatur ipsam nostrum ullam blanditiis
+                dignissimos sed consequuntur quibusdam cumque inventore. Dicta
+                voluptas maxime illum deserunt aliquam eius non at sit
+                doloribus. Dolor id illum excepturi consectetur quae impedit
+                incidunt molestiae amet! Repudiandae atque tenetur nisi
+                voluptatibus vel, sint consectetur cupiditate.
+              </p>
+            </div>
+          </div>
+          <div class="customers-container">
+            <div class="w-30 spes">
+              <div class="first-customer"></div>
+              <div class="color-title">
+                <h6>Customer 1</h6>
+                <h7>Trade</h7>
+                <p>Added Feature Customer</p>
+                <p>Added Feature Customer</p>
+                <p>Added Feature Customer</p>
+              </div>
+            </div>
+            <div class="w-30 spes">
+              <div class="second-customer"></div>
+              <div class="color-title">
+                <h6>Customer 2</h6>
+                <h7>Trade</h7>
+                <p>Added Feature Customer</p>
+                <p>Added Feature Customer</p>
+                <p>Added Feature Customer</p>
+              </div>
+            </div>
+            <div class="w-30 spes">
+              <div class="third-customer"></div>
+              <div class="color-title">
+                <h6>Customer 3</h6>
+                <h7>Trade</h7>
+                <p>Added Feature Customer</p>
+                <p>Added Feature Customer</p>
+                <p>Added Feature Customer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="price" class="section price-section">
+        <div>Price Section</div>
+      </div>
+
+      <div id="contact" class="section contact-section">
+        <span>&#43;</span>
+        <div class="container">
+          <address>
+            <h5>Contact Us</h5>
+            <h6>Address</h6>
+            <p>Swing by for a cup of coffee</p>
+            <div>
+              <img src="./images/location.svg" alt="" width="20px" />
+              <p>Islamabad, Pakistan</p>
+            </div>
+            <div>
+              <img src="./images/phone.svg" alt="" width="20px" />
+              <p>+92 3443931285</p>
+            </div>
+            <div>
+              <img src="./images/email.svg" alt="" width="20px" />
+              <p>testing@gmail.com</p>
+            </div>
+          </address>
+
+          <form class="contact-form" onsubmit="submitHandler(event)">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <input type="text" id="message" />
+            </div>
+            <div>
+              <input type="checkbox" id="like" />
+              <label for="like">I like it</label>
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- FOTER AREA START -->
+    <footer class="footer-area">
+      <div class="container">
+        <div>Follow Us</div>
+        <div class="trademark">
+          <img src="./images/facebook.svg" alt="" width="12px" />
+          <img src="./images/google-plus.svg" alt="" width="12px" />
+          <img src="./images/instagram.svg" alt="" width="12px" />
+          <img src="./images/linkedin-svgrepo-com.svg" alt="" width="12px" />
+          <img src="./images/twitter.svg" alt="" width="12px" />
+        </div>
+      </div>
+    </footer>
+    <img src="./images/up.svg" alt="" width="16px" class="go-top-btn" onclick="scrollToTop()">
+  </body>
+</html>
