@@ -11,6 +11,7 @@ To get started with the app, follow these steps:
    ```bash
    git clone https://github.com/imfahadali/company-landing-page.git
   ```
+
 2. Download VS code extension- Live Server.
 
 3. Go to index.html file.
