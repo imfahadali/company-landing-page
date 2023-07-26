@@ -16,7 +16,7 @@ function findElementInView() {
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       btnsToHighlight[0].classList.add("active");
       btnsToHighlight[1].classList.add("active");
-      document.getElementById("choosen-item").innerHTML = sectionId
+      document.getElementById("choosen-item").innerHTML = sectionId;
     } else {
       btnsToHighlight[0].classList.remove("active");
       btnsToHighlight[1].classList.remove("active");
@@ -43,13 +43,13 @@ function scrollToTop() {
   });
 }
 
-function scrollInView(button, section) {
+function scrollInView(section) {
   // Scroll into view the selected item
   document.getElementsByClassName(section)[0].scrollIntoView();
 }
 
-function mobileScrollInView(button, text) {
-  scrollInView(button, text);
+function mobileScrollInView(section) {
+  scrollInView(section);
   closeNav();
 }
 

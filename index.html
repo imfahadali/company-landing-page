@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  data-scroll="0">
+<html lang="en" data-scroll="0">
   <head>
     <meta charset="UTF-8" />
     <title>Landing Page</title>
@@ -19,9 +19,15 @@
                 <a
                   target="_self"
                   class="navbar-button active logo"
-                  onclick="scrollInView(this, 'header-area')"
-                  >
-                  <img src="./images/home.svg" alt="" width="12px" style="margin-right: 10px;">Logo</a
+                  onclick="scrollInView('header-area')"
+                >
+                  <img
+                    src="./images/home.svg
+                  "
+                    alt=""
+                    width="12px"
+                    style="margin-right: 10px"
+                  />Logo</a
                 >
               </li>
 
@@ -29,7 +35,7 @@
                 <a
                   target="_self"
                   class="navbar-button team"
-                  onclick="scrollInView(this, 'employee-section')"
+                  onclick="scrollInView('employee-section')"
                   >Team</a
                 >
               </li>
@@ -37,7 +43,7 @@
                 <a
                   target="_self"
                   class="navbar-button work"
-                  onclick="scrollInView(this, 'customers')"
+                  onclick="scrollInView('customers')"
                   >Work</a
                 >
               </li>
@@ -45,7 +51,7 @@
                 <a
                   target="_self"
                   class="navbar-button price"
-                  onclick="scrollInView(this, 'price-section')"
+                  onclick="scrollInView('price-section')"
                   >Price</a
                 >
               </li>
@@ -53,14 +59,17 @@
                 <a
                   target="_self"
                   class="navbar-button contact"
-                  onclick="scrollInView(this, 'contact-section')"
+                  onclick="scrollInView('contact-section')"
                   >Contact</a
                 >
               </li>
               <li>
-                <a  target="_self" class="navbar-button"><span>Dropdown </span><img src="./images/down.svg" alt="" width="22px"></a>
+                <a target="_self" class="navbar-button"
+                  ><span>Dropdown </span
+                  ><img src="./images/down.svg" alt="" width="22px"
+                /></a>
                 <ul>
-                  <li><a target="_self" >Item 1</a></li>
+                  <li><a target="_self">Item 1</a></li>
                   <li><a target="_self">Item 2</a></li>
                   <li><a target="_self">Item 3</a></li>
                   <li><a target="_self">Item 4</a></li>
@@ -69,24 +78,64 @@
             </ul>
 
             <div class="mobile-view">
-              
-              <a onclick="closeNav()" href="" id="choosen-item" class="navbar-button">Logo</a>
-              <span onclick="openNav()">&#9776</span>
+              <a
+                onclick="closeNav()"
+                href=""
+                id="choosen-item"
+                class="navbar-button"
+                >Logo</a
+              >
+              <span onclick="openNav()">&#9776;</span>
               <div id="myNav" class="overlay">
-                  <a href="javascript:void()" onclick="closeNav()" class="close-btn">&times;</a>
-                  <div class="overlay-content">
-                      <a onclick="mobileScrollInView(this, 'header-area')" class="navbar-button active logo" >Logo</a>
-                      <a onclick="mobileScrollInView(this, 'employee-section')" class="navbar-button team">Team</a>
-                      <a onclick="mobileScrollInView(this, 'customers')" class="navbar-button work">Work</a>
-                      <a onclick="mobileScrollInView(this, 'price-section')" class="navbar-button price">Price</a>
-                      <a onclick="mobileScrollInView(this, 'contact-section')" class="navbar-button contact">Contact</a>
-                  </div>
+                <a
+                  href="javascript:void()"
+                  onclick="closeNav()"
+                  class="close-btn"
+                  >&times;</a
+                >
+                <div class="overlay-content">
+                  <a
+                    onclick="mobileScrollInView('header-area')"
+                    class="navbar-button active logo"
+                    >Logo</a
+                  >
+                  <a
+                    onclick="mobileScrollInView('employee-section')"
+                    class="navbar-button team"
+                    >Team</a
+                  >
+                  <a
+                    onclick="mobileScrollInView('customers')"
+                    class="navbar-button work"
+                    >Work</a
+                  >
+                  <a
+                    onclick="mobileScrollInView('price-section')"
+                    class="navbar-button price"
+                    >Price</a
+                  >
+                  <a
+                    onclick="mobileScrollInView('contact-section')"
+                    class="navbar-button contact"
+                    >Contact</a
+                  >
+
+                  <a target="_self" class="navbar-button"
+                    >Dropdown<img src="./images/down.svg" alt="" width="22px" />
+                  </a>
+                  <ul>
+                    <li><a target="_self">Item 1</a></li>
+                    <li><a target="_self">Item 2</a></li>
+                    <li><a target="_self">Item 3</a></li>
+                    <li><a target="_self">Item 4</a></li>
+                  </ul>
+                </div>
               </div>
-          </div>
+            </div>
           </nav>
         </div>
         <div class="button">
-          <a >Get Started</a>
+          <a>Get Started</a>
         </div>
       </div>
     </header>
@@ -235,6 +284,12 @@
         </div>
       </div>
     </footer>
-    <img src="./images/up.svg" alt="" width="16px" class="go-top-btn" onclick="scrollToTop()">
+    <img
+      src="./images/up.svg"
+      alt=""
+      width="16px"
+      class="go-top-btn"
+      onclick="scrollToTop()"
+    />
   </body>
 </html>
