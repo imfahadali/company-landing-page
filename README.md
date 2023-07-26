@@ -9,8 +9,8 @@ To get started with the app, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/imfahadali/company-landing-page.git
-  ```
+   git clone https://github.com/imfahadali/company-landing-page.
+   ```
 
 2. Download VS code extension- Live Server.
 
